@@ -13,7 +13,7 @@
  * @author Zeshan
  */
 
-namespace \Vizrex\LaravelCleaner;
+namespace Vizrex\LaravelCleaner;
 
 use \Vizrex\Laraviz\BaseServiceProvider;
 
