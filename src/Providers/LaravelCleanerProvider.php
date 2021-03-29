@@ -15,7 +15,7 @@
 
 namespace Vizrex\LaravelCleaner;
 
-use Vizrex\Laraviz\BaseServiceProvider;
+use \Vizrex\Laraviz\BaseServiceProvider;
 
 class LaravelCleanerProvider extends BaseServiceProvider
 {
