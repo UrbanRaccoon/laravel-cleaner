@@ -9,7 +9,7 @@
     }],
     "minimum-stability": "dev",
     "require": {
-        "vizrex/laraviz": "~1"
+        "vizrex/laraviz": "dev-dev-urban"
     },
     "autoload": {
         "psr-4": {
