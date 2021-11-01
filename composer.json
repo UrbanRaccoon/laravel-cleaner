@@ -1,15 +1,15 @@
 {
-    "name": "vizrex/laravel-cleaner",
+    "name": "urbanraccoon/laravel-cleaner",
     "description": "This a utility package to clean-up temporary files of Laravel applications.",
     "type": "laravel-package",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [{
-        "name": "Vizrex",
+        "name": "UrbanRaccoon",
         "email": "laravel@vizrex.com"
     }],
     "minimum-stability": "dev",
     "require": {
-        "vizrex/laraviz": "dev-dev-urban"
+        "urbanraccoon/laraviz": "dev-dev-urban"
     },
     "autoload": {
         "psr-4": {
