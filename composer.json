@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vizrex\\LaravelCleaner\\Providers\\LaravelCleanerProvider"
+                "Vizrex\\LaravelCleaner\\LaravelCleanerProvider"
             ]
         }
     }
