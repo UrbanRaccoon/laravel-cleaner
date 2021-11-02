@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vizrex\\LaravelCleaner\\": "src/Providers"
+            "Vizrex\\LaravelCleaner\\": ["src","src/Providers"]
         }
     },
     "extra": {
