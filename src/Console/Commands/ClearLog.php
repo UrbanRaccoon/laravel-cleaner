@@ -11,7 +11,8 @@ namespace Vizrex\LaravelCleaner\Console\Commands;
 
 use RuntimeException;
 use Illuminate\Filesystem\Filesystem;
-use Vizrex\Laraviz\Console\Commands\BaseCommand;
+use \Vizrex\Laraviz\Console\Commands\BaseCommand;
+use \Vizrex\LaravelCleaner\LaravelCleanerProvider;
 
 class ClearLog extends BaseCommand
 {    
@@ -72,6 +73,6 @@ class ClearLog extends BaseCommand
 
     protected function setNamespace()
     {
-        $this->namespace = \Vizrex\LaravelCleaner\LaravelCleanerProvider::getNamespace();
+        $this->namespace = LaravelCleanerProvider::getNamespace();
     }
 }
