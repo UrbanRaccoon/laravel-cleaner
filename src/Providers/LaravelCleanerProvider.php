@@ -24,9 +24,9 @@ class LaravelCleanerProvider extends BaseServiceProvider
     public function boot()
     {
         // Commands
-        $this->commands(['Vizrex\LaravelCleaner\Console\Commands\Cleanup']);
-        $this->commands(['Vizrex\LaravelCleaner\Console\Commands\ClearSession']);
-        $this->commands(['Vizrex\LaravelCleaner\Console\Commands\ClearLog']);
+        $this->commands(['\Vizrex\LaravelCleaner\Console\Commands\Cleanup']);
+        $this->commands(['\Vizrex\LaravelCleaner\Console\Commands\ClearSession']);
+        $this->commands(['\Vizrex\LaravelCleaner\Console\Commands\ClearLog']);
         
         // Translations
         $this->loadTranslationsFrom(__DIR__."/../resources/lang", self::getNamespace());
