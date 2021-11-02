@@ -9,8 +9,9 @@
 
 namespace Vizrex\LaravelCleaner\Console\Commands;
 
-use Vizrex\Laraviz\Console\Commands\BaseCommand;
+use \Vizrex\Laraviz\Console\Commands\BaseCommand;
 use Illuminate\Support\Facades\Artisan;
+use \Vizrex\LaravelCleaner\LaravelCleanerProvider;
 
 class Cleanup extends BaseCommand
 {
@@ -120,7 +121,7 @@ class Cleanup extends BaseCommand
 
     protected function setNamespace()
     {
-        $this->namespace = \Vizrex\LaravelCleaner\LaravelCleanerProvider::getNamespace();
+        $this->namespace = LaravelCleanerProvider::getNamespace();
     }
 
 
