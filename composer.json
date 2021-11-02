@@ -5,7 +5,7 @@
     "license": "MIT",
     "authors": [{
         "name": "UrbanRaccoon",
-        "email": "laravel@vizrex.com"
+        "email": "pieter.marchand@yeastconsulting.be"
     }],
     "minimum-stability": "dev",
     "require": {
