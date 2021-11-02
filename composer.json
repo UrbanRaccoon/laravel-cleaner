@@ -2,7 +2,7 @@
     "name": "urbanraccoon/laravel-cleaner",
     "description": "This a utility package to clean-up temporary files of Laravel applications.",
     "type": "laravel-package",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [{
         "name": "UrbanRaccoon",
         "email": "pieter.marchand@yeastconsulting.be"
